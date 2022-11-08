@@ -48,6 +48,6 @@ To work on our source code, you might want to modify the following files:
    Test AAD model on white box scenario.
 
 ## Note
-Due to file size limitation, we only include the source code for this project. The input data for this repo can be generated following the instructions in "Reproducibility_supplementary" \\
-The full source code + data can be downloaded at downloaded at https://tinyurl.com/yxt5e869 \\
+Due to file size limitation, we only include the source code for this project. The input data for this repo can be generated following the instructions in "Reproducibility_supplementary" <br />
+The full source code + data can be downloaded at downloaded at https://tinyurl.com/yxt5e869 <br />
 We are working on this repository to make the source code more clean and easy-to-use!!!
