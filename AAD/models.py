@@ -71,15 +71,13 @@ class AAD_CNN(nn.Module):
         self.detection_fc = nn.Sequential(
             nn.Linear(self.decoder_out_channel, 100),
             nn.ReLU(),
-            nn.Linear(100, 2),
-            nn.Softmax(dim=1)
+            nn.Linear(100, 2)
         )
 
         self.regularization = nn.Sequential(
             nn.Linear(self.context_channels, 100),
             nn.ReLU(),
-            nn.Linear(100, self.num_classes),
-            nn.Softmax(dim=1)
+            nn.Linear(100, self.num_classes)
         )
 
     def forward(self, x):
@@ -193,15 +191,13 @@ class AAD_CNN_Large(nn.Module):
         self.detection_fc = nn.Sequential(
             nn.Linear(self.decoder_out_channel[2], 1000),
             nn.ReLU(),
-            nn.Linear(1000, 2),
-            nn.Softmax(dim=1)
+            nn.Linear(1000, 2)
         )
 
         self.regularization = nn.Sequential(
             nn.Linear(self.context_channels, 1000),
             nn.ReLU(),
-            nn.Linear(1000, self.num_classes),
-            nn.Softmax(dim=1)
+            nn.Linear(1000, self.num_classes)
         )
 
     def forward(self, x):
