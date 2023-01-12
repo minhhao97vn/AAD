@@ -1,6 +1,7 @@
 # Defending Evasion Attacks via Adversarially Adaptive Training
 
-This code replicates the experiments in the paper "Defending Evasion Attacks via Adversarially Adaptive Training", to be published at IEEE Big Data 2022
+This code replicates the experiments in the paper "Defending Evasion Attacks via Adversarially Adaptive Training", to be published at IEEE Big Data 2022 ([paper](https://github.com/minhhao97vn/AAD/blob/main/Defending_Evasion_Attacks_via_Adversarially_Adaptive_Training.pdf))
+
 
 ## Dependencies
 In this project, we use python 3.7.0 and dependencies:
