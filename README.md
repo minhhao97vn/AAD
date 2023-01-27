@@ -1,6 +1,6 @@
 # Defending Evasion Attacks via Adversarially Adaptive Training
 
-This code replicates the experiments in the paper "Defending Evasion Attacks via Adversarially Adaptive Training", to be published at IEEE Big Data 2022 ([paper](https://ieeexplore.ieee.org/document/10020474))
+This code replicates the experiments in the paper "Defending Evasion Attacks via Adversarially Adaptive Training", published at IEEE Big Data 2022 ([paper](https://ieeexplore.ieee.org/document/10020474))
 
 
 ## Dependencies
